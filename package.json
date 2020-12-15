@@ -1,5 +1,5 @@
 {
-  "name": "Minigame Maker Autocomplete",
+  "name": "Minigame-Maker-Autocomplete",
   "main": "./lib/main",
   "version": "1.0.0",
   "description": "Minigame Maker Autocomplete for ATOM. For the Minecraft plugin: https://www.spigotmc.org/resources/mgm-minigame-maker.54505/",
