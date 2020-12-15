@@ -1,12 +1,4 @@
-# atom-autocomplete-boilerplate
-
-Boilerplate package for creating your own custom autocomplete provider for Atom.
-
-## Introduction
-
-This package is **not meant to be used directly**. It's a sample package that you can build upon to quickly create a custom autocomplete plug-in for Atom.
-
-This README contains only basic installation steps. For the full tutorial, **please read [Creating an Autocomplete Plug-In for Atom](http://codersblock.com/blog/creating-an-autocomplete-plug-in-for-atom/)**.
+# atom autocomplete for Minigame Maker by Vagdedes
 
 ## Installation
 
