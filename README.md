@@ -1,4 +1,6 @@
-# atom autocomplete for Minigame Maker by Vagdedes
+# Atom autocomplete for Minigame Maker by Vagdedes
+
+Available through Atom built-in packages system.
 
 ## Installation
 

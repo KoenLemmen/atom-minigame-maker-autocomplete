@@ -1,7 +1,7 @@
 {
   "name": "Minigame-Maker-Autocomplete",
   "main": "./lib/main",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Minigame Maker Autocomplete for ATOM. For the Minecraft plugin: https://www.spigotmc.org/resources/mgm-minigame-maker.54505/",
   "keywords": [
     "autocomplete",
@@ -10,7 +10,7 @@
     "Maker",
     "Minecraft"
   ],
-  "repository": "https://gitlab.com/koenlemmen/atom-minigame-maker-autocomplete",
+  "repository": "https://github.com/KoenLemmen/atom-minigame-maker-autocomplete",
   "author": "Koen Lemmen (Discord TheRealLemon#0001)",
   "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
   "engines": {
