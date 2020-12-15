@@ -1,0 +1,492 @@
+[
+	{
+		"displayText": "if",
+		"snippet": "if ${1:condition}",
+		"description": "if condition"
+	},
+ 	{
+		"displayText": "do",
+		"snippet": "do ${1:command}.",
+		"description": "do command."
+	},
+	{
+		"displayText": "set-public-timer",
+		"snippet": "set-public-timer {player} ${1:name} ${2:ticks}",
+		"description": "set public timer"
+	},
+	{
+		"displayText": "set-private-timer",
+		"snippet": "set-private-timer {player} ${1:name} ${2:ticks}",
+		"description": "set private timer"
+	},
+	{
+		"displayText": "stop-public-timer",
+		"snippet": "stop-public-timer {player} ${1:name} ${2:ticks}",
+		"description": "stop public timer"
+	},
+	{
+		"displayText": "stop-private-timer",
+		"snippet": "stop-private-timer {player} ${1:name} ${2:ticks}",
+		"description": "stop private timer"
+	},
+	{
+		"displayText": "save-stats",
+		"snippet": "save-stats {player} ${1:stat-name} ${2:value}",
+		"description": "save stats to player"
+	},
+	{
+		"displayText": "add-to-public-data",
+		"snippet": "add-to-public-data {player} ${1:name} ${2:value}",
+		"description": "add to public data"
+	},
+	{
+		"displayText": "add-to-private-data",
+		"snippet": "add-to-private-data {player} ${1:name} ${2:value}",
+		"description": "add to private data"
+	},
+	{
+		"displayText": "set-public-data",
+		"snippet": "set-public-data {player} ${1:name} ${2:value}",
+		"description": "set public data"
+	},
+	{
+		"displayText": "set-private-data",
+		"snippet": "set-private-data {player} ${1:name} ${2:value}",
+		"description": "set private data"
+	},
+	{
+		"displayText": "remove-public-data",
+		"snippet": "remove-public-data {player} ${1:name}",
+		"description": "remove public data"
+	},
+	{
+		"displayText": "remove-private-data",
+		"snippet": "remove-private-data {player} ${1:name}",
+		"description": "remove private data"
+	},
+	{
+    "displayText": "remove-from-team",
+    "snippet": "remove-from-team {player}",
+    "description": "remove-from-team"
+  },
+  {
+    "displayText": "hide-enemy-teams",
+    "snippet": "hide-enemy-teams {player}",
+    "description": "hide-enemy-teams"
+  },
+  {
+    "displayText": "show-enemy-teams",
+    "snippet": "show-enemy-teams {player}",
+    "description": "show-enemy-teams"
+  },
+  {
+    "displayText": "teleport-to-random-player",
+    "snippet": "teleport-to-random-player {player}",
+    "description": "teleport-to-random-player"
+  },
+  {
+    "displayText": "teleport-to-self",
+    "snippet": "teleport-to-self {player}",
+    "description": "teleport-to-self"
+  },
+  {
+    "displayText": "teleport-to-interacted-entity",
+    "snippet": "teleport-to-interacted-entity {player}",
+    "description": "teleport-to-interacted-entity"
+  },
+  {
+    "displayText": "teleport-to-interacted-player",
+    "snippet": "teleport-to-interacted-player {player}",
+    "description": "teleport-to-interacted-player"
+  },
+  {
+    "displayText": "teleport-to-team",
+    "snippet": "teleport-to-team {player}",
+    "description": "teleport-to-team"
+  },
+  {
+    "displayText": "kill-player",
+    "snippet": "kill-player {player}",
+    "description": "kill-player"
+  },
+  {
+    "displayText": "kill-interacted-entity",
+    "snippet": "kill-interacted-entity {player}",
+    "description": "kill-interacted-entity"
+  },
+  {
+    "displayText": "kill-interacted-player",
+    "snippet": "kill-interacted-player {player}",
+    "description": "kill-interacted-player"
+  },
+  {
+    "displayText": "remove-potion-effects",
+    "snippet": "remove-potion-effects {player}",
+    "description": "remove-potion-effects"
+  },
+  {
+    "displayText": "clear-armor",
+    "snippet": "clear-armor {player}",
+    "description": "clear-armor"
+  },
+  {
+    "displayText": "clear-inventory",
+    "snippet": "clear-inventory {player}",
+    "description": "clear-inventory"
+  },
+  {
+    "displayText": "close-inventory",
+    "snippet": "close-inventory {player}",
+    "description": "close-inventory"
+  },
+  {
+    "displayText": "open-own-inventory",
+    "snippet": "open-own-inventory {player}",
+    "description": "open-own-inventory"
+  },
+  {
+    "displayText": "remove-item-drops",
+    "snippet": "remove-item-drops {player}",
+    "description": "remove-item-drops"
+  },
+  {
+    "displayText": "set-sneaking",
+    "snippet": "set-sneaking {player}",
+    "description": "set-sneaking"
+  },
+  {
+    "displayText": "stop-sprinting",
+    "snippet": "stop-sprinting {player}",
+    "description": "stop-sprinting"
+  },
+  {
+    "displayText": "save-interacted-block",
+    "snippet": "save-interacted-block {player}",
+    "description": "save-interacted-block"
+  },
+  {
+    "displayText": "reset-saved-blocks",
+    "snippet": "reset-saved-blocks {player}",
+    "description": "reset-saved-blocks"
+  },
+  {
+    "displayText": "remove-interacted-block",
+    "snippet": "remove-interacted-block {player}",
+    "description": "remove-interacted-block"
+  },
+  {
+    "displayText": "remove-fire",
+    "snippet": "remove-fire {player}",
+    "description": "remove-fire"
+  },
+  {
+    "displayText": "reset-hit-delay",
+    "snippet": "reset-hit-delay {player}",
+    "description": "reset-hit-delay"
+  },
+  {
+    "displayText": "cancel-event",
+    "snippet": "cancel-event {player}",
+    "description": "cancel-event"
+  },
+  {
+    "displayText": "remove-from-minigame",
+    "snippet": "remove-from-minigame {player}",
+    "description": "remove-from-minigame"
+  },
+  {
+    "displayText": "set-interacted-entity-as-vehicle",
+    "snippet": "set-interacted-entity-as-vehicle {player}",
+    "description": "set-interacted-entity-as-vehicle"
+  },
+	{
+		"displayText": "add-to-team",
+		"snippet": "add-to-team {player} ${1:name}",
+		"description": "add-to-team"
+	},
+	{
+		"displayText": "randomize-teams",
+		"snippet": "randomize-teams {player} ${1:2/3/4}",
+		"description": "randomize-teams"
+	},
+	{
+		"displayText": "randomize-teams",
+		"snippet": "randomize-teams {player} ${1:team1-team2-team3-team4}",
+		"description": "randomize-teams"
+	},
+	{
+		"displayText": "teleport",
+		"snippet": "teleport {player} ${1:saved-location}",
+		"description": "teleport"
+	},
+	{
+		"displayText": "teleport-everyone",
+		"snippet": "teleport-everyone {player} ${1:saved-location}",
+		"description": "teleport-everyone"
+	},
+	{
+		"displayText": "make-teleport-loop",
+		"snippet": "make-teleport-loop {player} ${1:saved-location-key}",
+		"description": "make-teleport-loop"
+	},
+	{
+		"displayText": "increase-max-health",
+		"snippet": "increase-max-health {player} ${1:amount}",
+		"description": "increase-max-health"
+	},
+	{
+		"displayText": "decrease-max-health",
+		"snippet": "decrease-max-health {player} ${1:amount}",
+		"description": "decrease-max-health"
+	},
+	{
+		"displayText": "set-max-health",
+		"snippet": "set-max-health {player} ${1:amount}",
+		"description": "set-max-health"
+	},
+	{
+		"displayText": "increase-health",
+		"snippet": "increase-health {player} ${1:amount}",
+		"description": "increase-health"
+	},
+	{
+		"displayText": "decrease-health",
+		"snippet": "decrease-health {player} ${1:amount}",
+		"description": "decrease-health"
+	},
+	{
+		"displayText": "set-health",
+		"snippet": "set-health {player} ${1:amount}",
+		"description": "set-health"
+	},
+	{
+		"displayText": "set-gamemode",
+		"snippet": "set-gamemode {player} ${1:gamemode}",
+		"description": "set-gamemode"
+	},
+	{
+		"displayText": "apply-kit",
+		"snippet": "apply-kit {player} ${1:kit-name}",
+		"description": "apply-kit"
+	},
+	{
+		"displayText": "increase-food-level",
+		"snippet": "increase-food-level {player} ${1:amount}",
+		"description": "increase-food-level"
+	},
+	{
+		"displayText": "decrease-food-level",
+		"snippet": "decrease-food-level {player} ${1:amount}",
+		"description": "decrease-food-level"
+	},
+	{
+		"displayText": "set-food-level",
+		"snippet": "set-food-level {player} ${1:amount}",
+		"description": "set-food-level"
+	},
+	{
+		"displayText": "send-public-message",
+		"snippet": "send-public-message {player} ${1:message}",
+		"description": "send-public-message"
+	},
+	{
+		"displayText": "send-private-message",
+		"snippet": "send-private-message {player} ${1:message}",
+		"description": "send-private-message"
+	},
+	{
+		"displayText": "set-fly-speed",
+		"snippet": "set-fly-speed {player} ${1:amount}",
+		"description": "set-fly-speed"
+	},
+	{
+		"displayText": "set-walk-speed",
+		"snippet": "set-walk-speed {player} ${1:amount}",
+		"description": "set-walk-speed"
+	},
+	{
+		"displayText": "increase-exp-level",
+		"snippet": "increase-exp-level {player} ${1:amount}",
+		"description": "increase-exp-level"
+	},
+	{
+		"displayText": "decrease-exp-level",
+		"snippet": "decrease-exp-level {player} ${1:amount}",
+		"description": "decrease-exp-level"
+	},
+	{
+		"displayText": "set-exp-level",
+		"snippet": "set-exp-level {player} ${1:amount}",
+		"description": "set-exp-level"
+	},
+	{
+		"displayText": "remove-potion-effect",
+		"snippet": "remove-potion-effect {player} ${1:potion-id}",
+		"description": "remove-potion-effect"
+	},
+	{
+		"displayText": "open-configured-inventory",
+		"snippet": "open-configured-inventory {player} ${1:name}",
+		"description": "open-configured-inventory"
+	},
+	{
+		"displayText": "set-display-name",
+		"snippet": "set-display-name {player} ${1:name}",
+		"description": "set-display-name"
+	},
+	{
+		"displayText": "set-tablist-name",
+		"snippet": "set-tablist-name {player} ${1:name}",
+		"description": "set-tablist-name"
+	},
+	{
+		"displayText": "set-interacted-block-to",
+		"snippet": "set-interacted-block-to {player} ${1:type}",
+		"description": "set-interacted-block-to"
+	},
+	{
+		"displayText": "set-in-fire",
+		"snippet": "set-in-fire {player} ${1:seconds}",
+		"description": "set-in-fire"
+	},
+	{
+		"displayText": "set-hit-delay",
+		"snippet": "set-hit-delay {player} ${1:amount}",
+		"description": "set-hit-delay"
+	},
+	{
+		"displayText": "damage",
+		"snippet": "damage {player} ${1:amount}",
+		"description": "damage"
+	},
+	{
+		"displayText": "kick",
+		"snippet": "kick {player} ${1:reason}",
+		"description": "kick"
+	},
+	{
+		"displayText": "change-minigame",
+		"snippet": "change-minigame {player} ${1:minigame}",
+		"description": "change-minigame"
+	},
+	{
+		"displayText": "add-to-minigame",
+		"snippet": "add-to-minigame {player} ${1:minigame}",
+		"description": "add-to-minigame"
+	},
+	{
+		"displayText": "set-vehicle",
+		"snippet": "set-vehicle {player} ${1:other-player}",
+		"description": "set-vehicle"
+	},
+	{
+		"displayText": "move-to-world",
+		"snippet": "move-to-world {player} ${1:name}",
+		"description": "move-to-world"
+	},
+	{
+		"displayText": "send-to-bungee-server",
+		"snippet": "send-to-bungee-server {player} ${1:server}",
+		"description": "send-to-bungee-server"
+	},
+	{
+		"displayText": "play-sound",
+		"snippet": "play-sound {player} ${1:name}",
+		"description": "play-sound"
+	},
+	{
+		"displayText": "execute-command",
+		"snippet": "execute-command {player} ${1:command}",
+		"description": "execute-command"
+	},
+	{
+	"displayText": "teleport-to-random-location",
+	"snippet": "teleport-to-random-location {player} ${1:saved-location-key} ${2:amount}",
+	"description": "teleport-to-random-location"
+	},
+	{
+		"displayText": "remove-item-by-material",
+		"snippet": "remove-item-by-material {player} ${1:item} ${2:limit}",
+		"description": "remove-item-by-material"
+	},
+	{
+		"displayText": "remove-item-by-name",
+		"snippet": "remove-item-by-name {player} ${1:name} ${2:limit}",
+		"description": "remove-item-by-name"
+	},
+	{
+		"displayText": "add-velocity",
+		"snippet": "add-velocity {player} ${1:x} ${2:y}",
+		"description": "add-velocity"
+	},
+	{
+		"displayText": "add-knockback",
+		"snippet": "add-knockback {player} ${1:x} ${2:y}",
+		"description": "add-knockback"
+	},
+	{
+	"displayText": "give-item",
+	"snippet": "give-item {player} ${1:item} ${2:type} ${3:amount}",
+	"description": "give-item"
+	},
+	{
+		"displayText": "set-hand-item",
+		"snippet": "set-hand-item {player} ${1:item} ${2:type} ${3:amount}",
+		"description": "set-hand-item"
+	},
+	{
+		"displayText": "set-second-hand-item",
+		"snippet": "set-second-hand-item {player} ${1:item} ${2:id} ${3:amount}",
+		"description": "set-second-hand-item"
+	},
+	{
+		"displayText": "set-helmet",
+		"snippet": "set-helmet {player} ${1:item} ${2:id} ${3:amount}",
+		"description": "set-helmet"
+	},
+	{
+		"displayText": "set-chestplate",
+		"snippet": "set-chestplate {player} ${1:item} ${2:id} ${3:amount}",
+		"description": "set-chestplate"
+	},
+	{
+		"displayText": "set-leggings",
+		"snippet": "set-leggings {player} ${1:item} ${2:id} ${3:amount}",
+		"description": "set-leggings"
+	},
+	{
+		"displayText": "set-boots",
+		"snippet": "set-boots {player} ${1:item} ${2:id} ${3:amount}",
+		"description": "set-boots"
+	},
+	{
+		"displayText": "add-potion-effect",
+		"snippet": "add-potion-effect {player} ${1:potion-id} ${2:seconds} ${3:amplifier}",
+		"description": "add-potion-effect"
+	},
+	{
+		"displayText": "remove-block-at",
+		"snippet": "remove-block-at {player} ${1:x} ${2:y} ${3:z}",
+		"description": "remove-block-at"
+	},
+	{
+	"displayText": "set-block-at",
+	"snippet": "set-block-at {player} ${1:x} ${2:y} ${3:z} ${4:type}",
+	"description": "set-block-at"
+	},
+	{
+		"displayText": "teleport-everyone",
+		"snippet": "teleport-everyone {player} ${1:x} ${2:y} ${3:z} ${4:yaw} ${5:pitch}",
+		"description": "teleport-everyone"
+	},
+	{
+		"displayText": "teleport",
+		"snippet": "teleport {player} ${1:x} ${2:y} ${3:z} ${4:yaw} ${5:pitch}",
+		"description": "teleport"
+	},
+	{
+		"displayText": "spawn-dropped-item",
+		"snippet": "spawn-dropped-item {player} ${1:x} ${2:y} ${3:z} ${4:item} ${5:type} ${6:amount}",
+		"description": "spawn-dropped-item"
+	}
+]
